@@ -4,7 +4,7 @@ function Brown(props) {
     return (
         <div>
             <nav>
-            Home 
+            Home About Vote
             </nav>
         </div>
     );
