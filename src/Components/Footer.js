@@ -13,12 +13,12 @@
         <Box>
         <h1
             style={{
-                color: "green",
+                color: "white",
                 textAlign: "center",
                 marginTop: "10px",
             }}
         >
-            A Computer Science Portal for Geeks!
+        THE MILLENIAL ENVIRONMENTALIST
         </h1>
         <FooterContainer>
             <Row>
