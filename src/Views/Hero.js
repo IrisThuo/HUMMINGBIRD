@@ -24,7 +24,7 @@ function Hero(props) {
               JOIN US
             </button>
         </div>
-        <Footer/>
+        
         </div>
 
 

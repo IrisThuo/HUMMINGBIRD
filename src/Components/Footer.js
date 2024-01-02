@@ -72,6 +72,17 @@
         </div>
 
   {/* remember to add icons to assets */}
+
+      <hr></hr>
+
+  {/* below footer links */}
+      <div className='sb_footer-below-links'>
+       <a href=''><div><p>Privacy Policy</p></div></a>
+       <a href=''><div><p>Terms and Conditions</p></div></a>
+       <a href=''><div><p>Cookie Declaration</p></div></a>
+      </div>
+
+
           </div>
         </div>
       </div>
