@@ -21,7 +21,7 @@
 
   {/* part b of footer links*/}
         <div className='sb_Footer-inks_div'>
-        <h4>Resources and Partners</h4>
+        <h4>Partners</h4>
         <a href=''>
         <p>Partner A</p>
        </a>
@@ -33,7 +33,35 @@
      </a>
         </div>
 
+  {/* part c of footer links */}
+        <div className='sb_Footer-links_div'>
+          <h4>Resources</h4>
+          <a href=''>
+           <p>Resource A</p>
+          </a>
+          <h4>Resources</h4>
+          <a href=''>
+           <p>Resource B</p>
+          </a>
+          <h4>Resources</h4>
+          <a href=''>
+           <p>Resource C</p>
+          </a>
+        </div>
 
+  {/* part d of footer */}
+        <div className='sb_Footer-links_div'>
+        <h4>Company</h4>
+        <a href=''>
+         <p>Home</p>
+        </a>
+        <a href=''>
+        <p>About</p>
+        </a>
+        <a href=''>
+        <p>Events</p>
+        </a>
+        </div>
           </div>
         </div>
       </div>
