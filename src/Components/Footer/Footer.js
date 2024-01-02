@@ -1,13 +1,13 @@
- import React from 'react';
+
 
  function Footer(props) {
     return (
-     <div className='footer'>
+    {/* <div className='footer'>
       <div className='sb_footer_section_padding'>
         <div className='sb_footer-links'>
 
-  {/*part a of footer links */}
-          <div className='sb_footer-links-div'>
+
+          <div className='sb_footer-links_div'>
             <h4>For Business</h4>
             <a href=''>
              <p>Contact</p>
@@ -19,7 +19,7 @@
             <p>Address</p>
             </a>
 
-  {/* part b of footer links*/}
+
         <div className='sb_Footer-inks_div'>
         <h4>Partners</h4>
         <a href=''>
@@ -33,7 +33,7 @@
      </a>
         </div>
 
-  {/* part c of footer links */}
+
         <div className='sb_Footer-links_div'>
           <h4>Resources</h4>
           <a href=''>
@@ -49,7 +49,7 @@
           </a>
         </div>
 
-  {/* part d of footer */}
+
         <div className='sb_Footer-links_div'>
         <h4>Company</h4>
         <a href=''>
@@ -63,19 +63,14 @@
         </a>
         </div>
 
-  {/* icon part of footer */}
-        <div className='socialmedia'>
-         <p><img src={linkedin} alt=''/></p>
-         <p><img src={insta} alt=''/></p>
-         <p><img src={fb} alt=''/></p>
-         <p><img src={twitter} alt=''/></p>
-        </div>
 
-  {/* remember to add icons to assets */}
+
+
+
 
       <hr></hr>
 
-  {/* below footer links */}
+
       <div className='sb_footer-below-links'>
        <a href=''><div><p>Privacy Policy</p></div></a>
        <a href=''><div><p>Terms and Conditions</p></div></a>
@@ -87,7 +82,7 @@
         </div>
       </div>
      </div>
-
+    */}
     );
  }
 
