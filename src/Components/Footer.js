@@ -62,6 +62,16 @@
         <p>Events</p>
         </a>
         </div>
+
+  {/* icon part of footer */}
+        <div className='socialmedia'>
+         <p><img src={linkedin} alt=''/></p>
+         <p><img src={insta} alt=''/></p>
+         <p><img src={fb} alt=''/></p>
+         <p><img src={twitter} alt=''/></p>
+        </div>
+
+  {/* remember to add icons to assets */}
           </div>
         </div>
       </div>
