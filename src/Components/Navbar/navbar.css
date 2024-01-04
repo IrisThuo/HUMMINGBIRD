@@ -8,6 +8,7 @@ nav {
     align-items: center;
     background-color: #0288D1 ;
     color: white;
+    padding:0rem 4rem;
     position: sticky;
     top: 0;
 }
@@ -36,6 +37,10 @@ nav ul li a{
 
 nav ul li a:not(.active):hover{
     background-color: black;
+}
+
+.logo img{
+    width: 400%;
 }
 
 nav .menu {

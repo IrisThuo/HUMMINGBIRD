@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 
 
@@ -7,7 +8,7 @@ function Hero(props) {
   return (
     <div>
     <Navbar/>
-    <h1> TME WEBSITE </h1>
+    <Footer/>
 
     </div>
   );
