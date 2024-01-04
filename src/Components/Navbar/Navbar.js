@@ -1,21 +1,36 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
+import "/home/name/HUMMINGBIRD/hummingbird/src/Components/Navbar/navbar.css" ;
 
 function Navbar(props) {
+    const [menuOpen, setMenuOpen] = useState(false)
     return (
+
        <nav>
-        <ul>
+
+       <h4>THE MILLENIAL ENVIRONMENTALIST</h4>
+        <div className='menu' onClick={() => {
+            setMenuOpen(!menuOpen)
+        }}>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul className={menuOpen ? "open" : ""}>
             <li>
-            <Link to="/">HOME</Link>
+            <NavLink to="/">HOME</NavLink>
             </li>
             <li>
-            <Link to="/stories">STORIES</Link>
+            <NavLink to="/stories">STORIES</NavLink>
             </li>
             <li>
-            <Link to="/about">ABOUT</Link>
+            <NavLink to="/about">ABOUT</NavLink>
             </li>
         </ul>
+
        </nav>
+
+
     );
 }
 
