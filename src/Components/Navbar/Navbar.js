@@ -6,16 +6,12 @@ import TMElogo from "/home/name/HUMMINGBIRD/hummingbird/src/assets/TMElogo.png";
 function Navbar(props) {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
-
+<>
        <nav>
-
-       <div className="sb_footer-links_div">
-              <div className="logo">
-                <p><img src={TMElogo} alt=""/></p>
-              </div>
-          </div>
-        
-       <h4>THE MILLENIAL ENVIRONMENTALIST</h4>
+       <div className="logo">
+       <img src={TMElogo} alt=""/>
+         </div>
+         <h4>THE MILLENIAL ENVIRONMENTALIST</h4>
         <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen)
         }}>
@@ -35,9 +31,11 @@ function Navbar(props) {
             </li>
         </ul>
 
-       </nav>
+         </nav>
 
 
+
+</>
     );
 }
 

@@ -60,7 +60,6 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
                 </a>
     </div>*/}
           <div className="sb_footer-links_div">
-            <h4>Interact with us</h4>
               <div className="socialmedia">
                 <p><img src={facebook} alt=""/></p>
                 <p><img src={instagram} alt=""/></p>
@@ -73,7 +72,7 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
           <div className="sb_footer-below">
             <div className="sb_footer-copyright">
               <p>
-                @{new Date().getFullYear()} TME. All right reserved.
+                @{new Date().getFullYear()} TME. All rights reserved.
               </p>
             </div>
           <div className="sb_footer-below-links">

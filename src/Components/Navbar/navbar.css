@@ -3,6 +3,7 @@
 }
 
 nav {
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,17 +14,18 @@ nav {
     top: 0;
 }
 
-h4 {
-    margin: auto;
-}
+
 
 nav ul{
     display: flex;
+
+
 
 }
 
 nav ul li {
     list-style: none;
+
 }
 
 nav ul li a{
@@ -40,7 +42,8 @@ nav ul li a:not(.active):hover{
 }
 
 .logo img{
-    width: 400%;
+    width: 50%;
+    margin: 0.5rem;
 }
 
 nav .menu {
@@ -61,7 +64,7 @@ nav .menu span {
     border-radius: 0.2rem;
 }
 
-@media (max-width:480px) {
+@media (max-width:580px) {
     nav .menu{
         display: flex;
     }
