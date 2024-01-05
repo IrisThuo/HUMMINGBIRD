@@ -1,19 +1,29 @@
+
+
 .planter1 img {
     width:60rem
 }
 
+
 .story-btn{
-    
+    text-align: center;
+}
+.vote {
+        width: 2rem;
+        margin: 0.5rem;
 }
 
 .story-btn a{
+  font-size: 20px;
   text-align: center;
   color: #73B55C;
   text-decoration: none;
 }
 
 .Join-btn button{
-    background-color: #73B55C;;
+    background-color: #73B55C;
+    border-radius: 0.5rem;
+    color: white;
 }
 
 .Hero_section{
@@ -47,10 +57,9 @@ margin:3rem auto;
 }
 
 .vertical {
-    border-left: 6px solid #73B55C;;
-    height: 40px;
-    display: grid;
-    display: grid;
+    border-left: 10px solid #73B55C;
+    padding: 0.5rem;
+
 
 }
 
