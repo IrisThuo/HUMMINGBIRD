@@ -26,6 +26,12 @@
     color: white;
 }
 
+.Join-btn button:hover{
+    background:rgba(27,156,252,0.1);
+    color:black;
+}
+
+
 .Hero_section{
 width: 80%;
 margin:3rem auto;

@@ -8,15 +8,13 @@ import Navbar from "../../Components/Navbar/Navbar";
 function Hero(props) {
   return (
     <div>
-   
+
     <Navbar/>
-
-
-
-    <div className="story-btn">
+   {/*<div className="story-btn">
         <img className="vote" src={ballot} alt=""/>
         <a href="/stories">Vote for your favourite story</a>
     </div>
+  */}
 
     <div className="Hero_section">
        <div className="Hero_section_box">
