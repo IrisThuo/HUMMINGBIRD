@@ -5,6 +5,7 @@ import "/home/name/HUMMINGBIRD/hummingbird/src/Views/About/About.css";
 import aboutBanner1 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutBanner1.png";
 import aboutpic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutpic.png";
 import aboutpic2 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutpic2.png";
+
 function About(props) {
     return (
         <div>

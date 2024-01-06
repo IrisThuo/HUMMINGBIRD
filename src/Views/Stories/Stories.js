@@ -13,9 +13,9 @@ function Stories() {
     return (
         <div>
             <Navbar/>
-
-            <h4>Read Some Of Our favourite Stories</h4>
-
+            <div className='Heading'>
+            <h2>Read Some Of Our favourite Stories</h2>
+            </div>
             <div className='body'>
             <div className='card_container'>
             <div className='img_container'>
