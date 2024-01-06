@@ -3,7 +3,8 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import "/home/name/HUMMINGBIRD/hummingbird/src/Views/About/About.css";
 import aboutBanner1 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutBanner1.png";
-
+import aboutpic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutpic.png";
+import aboutpic2 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutpic2.png";
 function About(props) {
     return (
         <div>
@@ -15,7 +16,9 @@ function About(props) {
                         backgroundImage:
                         `url(${aboutBanner1})`
                      }}
-                    ></div>
+                    >
+                        <h1>ABOUT US</h1>
+                    </div>
 
                     <div className='about_bottom'>
                      <h1>HOW WE GOT STARTED</h1>
@@ -48,13 +51,13 @@ function About(props) {
 
                     <div className='about_center2'>
 
-                    {/*REMEMBER TO ADD SOMETHING*/}
+                        <img src={aboutpic} alt=''/>
 
                     </div>
 
                     <div className='about_center3'>
 
-                    {/*REMEMBER TO ADD SOMETHING*/}
+                    <img src={aboutpic2} alt=''/>
 
                     </div>
                     <div className='about_center4'>
@@ -105,11 +108,12 @@ function About(props) {
                             </p>
 
                     </div>
-                     <div className='Members'>
-                     
-                     </div>
+
 
                 </div>
+
+
+
                      <div className='clear'></div>
             <Footer/>
         </div>

@@ -1,6 +1,6 @@
 .clear {
     clear: both;
-    height: 200px;
+    height: 1200px;
 }
 
 .about {
@@ -19,6 +19,14 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
 
+.about_top h1{
+    height: 20rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    
+}
 
 .about_bottom{
     display: flex;
@@ -61,6 +69,14 @@
     font-size: 2.5rem;
     line-height: 1;
     color: #0288D1;
+}
+
+.about_center2 img{
+ width: 50rem ;
+}
+
+.about_center3 img{
+    width: 50rem ;
 }
 
 .about_center4{

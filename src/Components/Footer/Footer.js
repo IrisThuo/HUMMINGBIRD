@@ -9,7 +9,7 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
  function Footer(props) {
     return (
       <>
-      <div class="clear"></div>
+      
       <div className="footer">
 
         <div className="sb_footer section_padding">
