@@ -30,7 +30,7 @@ function Hero(props) {
             </p>
             </div>
             <div className="Join-btn">
-              <button>Join us</button>
+              <a href="/join"><button>Join us</button></a>
             </div>
 
           </div>
