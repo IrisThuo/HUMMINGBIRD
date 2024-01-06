@@ -10,11 +10,11 @@ function Hero(props) {
     <div>
 
     <Navbar/>
-   {/*<div className="story-btn">
+   <div className="story-btn">
         <img className="vote" src={ballot} alt=""/>
-        <a href="/stories">Vote for your favourite story</a>
+        <a href="/stories">Read some of our  favourite stories</a>
     </div>
-  */}
+
 
     <div className="Hero_section">
        <div className="Hero_section_box">

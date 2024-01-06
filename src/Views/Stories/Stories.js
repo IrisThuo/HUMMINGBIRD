@@ -31,7 +31,7 @@ function Stories() {
                 <div className='btn'>
                     <button>
                         <a href='/story'>
-                             View more
+                             Read more
                         </a>
                     </button>
                 </div>
@@ -52,7 +52,7 @@ function Stories() {
             <div className='btn'>
                 <button>
                     <a href='/story'>
-                         View more
+                         Read more
                     </a>
                 </button>
             </div>
@@ -73,7 +73,7 @@ function Stories() {
         <div className='btn'>
             <button>
                 <a href='/story'>
-                     View more
+                     Read more
                 </a>
             </button>
         </div>
@@ -94,7 +94,7 @@ function Stories() {
     <div className='btn'>
         <button>
             <a href='/story'>
-                 View more
+                 Read more
             </a>
         </button>
     </div>
@@ -115,7 +115,7 @@ function Stories() {
     <div className='btn'>
         <button>
             <a href='/story'>
-                 View more
+                 Read more
             </a>
         </button>
     </div>

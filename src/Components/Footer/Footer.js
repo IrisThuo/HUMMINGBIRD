@@ -8,7 +8,10 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
 
  function Footer(props) {
     return (
+      <>
+      <div class="clear"></div>
       <div className="footer">
+
         <div className="sb_footer section_padding">
            <div className="sb_footer-links">
             {/*<div className="sb_footer-links_div">
@@ -84,6 +87,7 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
 
         </div>
       </div>
+      </>
     );
  }
 
