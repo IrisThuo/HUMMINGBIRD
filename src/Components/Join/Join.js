@@ -6,10 +6,12 @@ import "/home/name/HUMMINGBIRD/hummingbird/src/Components/Join/Join.css";
 function Join(props) {
     const [buttonOpen, setbuttonOpen] = useState(false)
     return (
-        <div>
-            <Navbar/>
+        <>
+        <Navbar/>
+        <div className='join'>
+
                 <div className='Heading_title'>
-                 <h2>WELCOME!</h2>
+                 <h1>WELCOME!</h1>
                 </div>
                 <div className='join_us1'>
                 <h1>Plan 1</h1>
@@ -36,6 +38,7 @@ function Join(props) {
                     contact us on +25470200300
                </div>
               </div>
+              <br></br>
               <div className='join_us2'>
                 <h1>Plan 2</h1>
                <p>
@@ -60,10 +63,14 @@ function Join(props) {
                 }}>
                     contact us on +25470200300
                </div>
-               
+               <br></br>
+               <div className='Heading_title'>
+               <h1>lets make the world a better place...</h1>
+              </div>
               </div>
             <Footer/>
         </div>
+        </>
     );
 }
 
