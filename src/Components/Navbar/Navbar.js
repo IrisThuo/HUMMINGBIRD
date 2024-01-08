@@ -11,7 +11,7 @@ function Navbar(props) {
        <div className="logo">
        <img src={TMElogo} alt=""/>
          </div>
-         <h4>THE MILLENIAL ENVIRONMENTALIST</h4>
+         <h4>THE MILLENNIAL ENVIRONMENTALIST</h4>
         <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen)
         }}>

@@ -43,7 +43,7 @@ function About(props) {
                     <div className='about_center_main'>
                     <div className='about_center1'>
                     <div>
-                    <h1>THE MILLENIAL ENVIRONMENTALISTS</h1>
+                    <h1>THE MILLENNIAL ENVIRONMENTALISTS</h1>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                     </p>

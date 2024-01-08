@@ -26,7 +26,9 @@ function Hero(props) {
            <br></br>
             <div>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            A story of Friendship,Kenyatta Universiy and Conservation Biology.The Millennial Environentalists is a group of youth aimed in conserving and advocating for the environment.
+
+            We are a group of young pro-active Africans whose lives and careers are tied to the sustainable use of environmental resources.
             </p>
             </div>
             <div className="Join-btn">
