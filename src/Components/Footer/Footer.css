@@ -2,7 +2,10 @@
     padding:0rem 4rem;
 }
 
-
+.sb_footer-links_div a{
+    text-decoration: none;
+    color: black;
+}
 
 .footer{
     background-color: #0288D1;
@@ -10,7 +13,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-   
+
 
 }
 

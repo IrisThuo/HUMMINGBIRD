@@ -35,7 +35,7 @@ function Join(props) {
                <div className='btn_join' onClick={() => {
                 setbuttonOpen(!buttonOpen)
                 }}>
-                    contact us on +25470200300
+                    contact us on +254704 924 706
                </div>
               </div>
               <br></br>
@@ -61,7 +61,7 @@ function Join(props) {
                <div className='btn_join' onClick={() => {
                 setbuttonOpen(!buttonOpen)
                 }}>
-                    contact us on +25470200300
+                    contact us on +254704 924 706
                </div>
                <br></br>
                <div className='Heading_title'>

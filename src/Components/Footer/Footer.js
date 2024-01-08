@@ -9,46 +9,42 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
  function Footer(props) {
     return (
       <>
-      
+
       <div className="footer">
 
         <div className="sb_footer section_padding">
            <div className="sb_footer-links">
-            {/*<div className="sb_footer-links_div">
+            <div className="sb_footer-links_div">
               <h4>For Business</h4>
-                <a href="/employer">
-                  <p>Employer</p>
+                <a href="https://mail.google.com/mail/u/0/">
+                  <p>millenialenv.org@gmail.com</p>
                 </a>
-                <a href="/employer">
-                  <p>Employer</p>
-                </a>
-                <a href="/employer">
-                  <p>Employer</p>
-                </a>
+
             </div>
             <div className="sb_footer-links_div">
               <h4>Resources</h4>
-                <a href="/resource">
-                 <p>Resources</p>
+                <a href="https://miti.co.ke/">
+                 <p>MITI ALLIANCE</p>
                 </a>
-                <a href="/resource">
-                  <p>Resources</p>
+                <a href="https://www.pmikenya.com/">
+                  <p>PROJECT MANAGEMENT INSITUTE</p>
                 </a>
-                <a href="/resource">
-                  <p>Resources</p>
+                <a href="https://www.seedballskenya.com/">
+                  <p>SEED BALLS KENYA</p>
                 </a>
             </div>
             <div className="sb_footer-links_div">
               <h4>Partners</h4>
-                <a href="/partner">
-                  <p>Partner</p>
+                <a href="https://www.nema.go.ke/">
+                  <p>NEMA</p>
                 </a>
-                <a href="/partner">
-                  <p>Partner</p>
+                <a href="https://www.kasneb.or.ke/">
+                  <p>KASNEB</p>
                 </a>
-                <a href="/partner">
-                  <p>Partner</p>
+                <a href="https://sawmillers.kenyaforestservice.org/partner">
+                  <p>KFS</p>
                 </a>
+
             </div>
             <div className="sb_footer-links_div">
               <h4>T.M.E</h4>
@@ -61,13 +57,13 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
                 <a href="/stories">
                   <p>Stories</p>
                 </a>
-    </div>*/}
+    </div>
           <div className="sb_footer-links_div">
               <div className="socialmedia">
-                <p><img src={facebook} alt=""/></p>
-                <p><img src={instagram} alt=""/></p>
-                <p><img src={linkedin} alt=""/></p>
-                <p><img src={twitter} alt=""/></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100066730744869"><img src={facebook} alt=""/></a></p>
+                <p><a href="https://www.instagram.com/themillennialenvironmentalists/"><img src={instagram} alt=""/></a></p>
+                <p><a href="https://www.linkedin.com/in/millennial-environmentalist-0179a4206/"><img src={linkedin} alt=""/></a></p>
+                <p><a href="https://twitter.com/TME_254"><img src={twitter} alt=""/></a></p>
               </div>
           </div>
           </div>
