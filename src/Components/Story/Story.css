@@ -25,7 +25,7 @@
 
 
 
-.card_content{
+.story_card_content{
     display: flex;
     flex-direction: column;
     height: 55%;
@@ -39,12 +39,12 @@
     flex-direction: column;
     height: 55%;
     align-items: center;
-    margin:0 7rem 2rem o;
+    margin:0 2rem 2rem 2rem;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-   
+
 
 
 
