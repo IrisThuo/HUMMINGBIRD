@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import "/home/name/HUMMINGBIRD/hummingbird/src/Views/Landing/Hero.css"
-import HeroPic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/HeroPic.png";
-import ballot from "/home/name/HUMMINGBIRD/hummingbird/src/assets/ballot.png";
+import Heropic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Heropic.png";
+
 import Navbar from "../../Components/Navbar/Navbar";
 
 function Hero(props) {
@@ -11,8 +11,12 @@ function Hero(props) {
 
     <Navbar/>
    <div className="story-btn">
-        <img className="vote" src={ballot} alt=""/>
-        <a href="/stories">Read some of our  favourite stories</a>
+
+        <a href="/projects">
+        <span>SEE PROJECTS</span>
+        <span>SEE PROJECTS</span>
+        </a>
+
     </div>
 
 
@@ -29,7 +33,10 @@ function Hero(props) {
             A story of Friendship,Kenyatta Universiy and Conservation Biology.The Millennial Environentalists is a group of youth aimed in conserving and advocating for the environment.
 
             We are a group of young pro-active Africans whose lives and careers are tied to the sustainable use of environmental resources.
+
             </p>
+            <p>Engage us for partnerships in sustainable climate action
+            projects.</p>
             </div>
             <div className="Join-btn">
               <a href="/join"><button>Join us</button></a>
@@ -38,7 +45,7 @@ function Hero(props) {
           </div>
           <div className="Hero_section_box_left">
           <div className="planter1">
-          <img src={HeroPic} alt=""/>
+          <img src={Heropic} alt=""/>
         </div>
           </div>
        </div>

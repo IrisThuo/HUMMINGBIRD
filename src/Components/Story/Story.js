@@ -8,10 +8,10 @@ function Story(props) {
         <div>
             <Navbar/>
                 <div className='story_container'
-                style = {{
+                /*style = {{
                     backgroundImage:
                     `url(${story1})`
-                 }}
+                 }}*/
                 >
                 <div className='story_img_container'>
                     <img src={story1} alt=''/>

@@ -15,7 +15,7 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
         <div className="sb_footer section_padding">
            <div className="sb_footer-links">
             <div className="sb_footer-links_div">
-              <h4>For Business</h4>
+              <h4>BE BOLD,BE PART OF THE SOLUTION</h4>
                 <a href="https://mail.google.com/mail/u/0/">
                   <p>millenialenv.org@gmail.com</p>
                 </a>
@@ -44,6 +44,9 @@ import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
                 <a href="https://sawmillers.kenyaforestservice.org/partner">
                   <p>KFS</p>
                 </a>
+                <a href="https://sportsviewhotel.com/s/">
+                <p>SPORTSVIEW HOTEL</p>
+              </a>
 
             </div>
             <div className="sb_footer-links_div">
