@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import "/home/name/HUMMINGBIRD/hummingbird/src/Views/Landing/Hero.css"
-import Heropic from "/home/name/HUMMINGBIRD/hummingbird/src/Heropic.png";
+import Heropic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Heropic.png";
 
 import Navbar from "../../Components/Navbar/Navbar";
 
