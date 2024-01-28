@@ -24,15 +24,15 @@ function Projects(props) {
                      <h3>THE SCHOOL TREE PROGRAM</h3>
                 </div>
                 <div className='card_body'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <p>Growing trees in schools and mentoring clubs on sustainable innovation and problem solving.</p>
                 </div>
-                <div className='btn'>
+               {/* <div className='btn'>
                     <button>
                         <a href='/story'>
                              Read more
                         </a>
                     </button>
-                </div>
+                </div>*/}
             </div>
         </div>
 
@@ -45,15 +45,20 @@ function Projects(props) {
                  <h3>COASTAL REESTORATION</h3>
             </div>
             <div className='card_body'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <p>This initiative
+partners with local
+coastal organizations
+towards restoring the
+environment in the
+area</p>
             </div>
-            <div className='btn'>
+         {/*  <div className='btn'>
                 <button>
                     <a href='/story'>
                          Read more
                     </a>
                 </button>
-            </div>
+            </div>*/}
         </div>
     </div>
 
@@ -66,15 +71,21 @@ function Projects(props) {
              <h3>ASALS REJUVINATION</h3>
         </div>
         <div className='card_body'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p>This initiative
+            partners with local
+            communities and
+            societies in arid and
+            semi-arid areas in
+            climate action and
+            mitigation.</p>
         </div>
-        <div className='btn'>
+       {/* <div className='btn'>
             <button>
                 <a href='/story'>
                      Read more
                 </a>
             </button>
-        </div>
+        </div>*/}
     </div>
 </div>
 
@@ -87,15 +98,20 @@ function Projects(props) {
          <h3>ECO-TOURISM</h3>
     </div>
     <div className='card_body'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p>This initiative functions
+        to fuel interest and
+        awareness amongst the
+        public through tourism
+        and the rejuvenation of
+        protected areas.</p>
     </div>
-    <div className='btn'>
+   {/* <div className='btn'>
         <button>
             <a href='/story'>
                  Read more
             </a>
         </button>
-    </div>
+    </div>*/}
 </div>
 </div>
 
