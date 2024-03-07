@@ -111,7 +111,10 @@ margin:3rem auto;
     border-left: 10px solid #73B55C;
     padding: 0.5rem;
 
+}
 
+.vertical h1{
+    color: #0288D1;
 }
 
 @media screen and (max-width:35em) {
