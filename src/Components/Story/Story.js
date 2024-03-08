@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import "/home/name/HUMMINGBIRD/hummingbird/src/Components/Story/Story.css"
-import story1 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Story1.png";
+import "../../Components/Story/Story.css"
+import story1 from "../../assets/Story1.png";
 function Story(props) {
     return (
         <div>

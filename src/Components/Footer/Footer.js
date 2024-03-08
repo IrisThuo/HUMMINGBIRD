@@ -1,9 +1,9 @@
 import React from "react";
-import "/home/name/HUMMINGBIRD/hummingbird/src/Components/Footer/Footer.css";
-import facebook from "/home/name/HUMMINGBIRD/hummingbird/src/assets/facebook.png";
-import instagram from "/home/name/HUMMINGBIRD/hummingbird/src/assets/instagram.png";
-import linkedin from "/home/name/HUMMINGBIRD/hummingbird/src/assets/linkedin.png";
-import twitter from "/home/name/HUMMINGBIRD/hummingbird/src/assets/twitter.png";
+import "../../Components/Footer/Footer.css";
+import facebook from "../../assets/facebook.png";
+import instagram from "../../assets/instagram.png";
+import linkedin from "../../assets/linkedin.png";
+import twitter from "../../assets/twitter.png";
 
 
  function Footer(props) {

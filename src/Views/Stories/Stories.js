@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
-import "/home/name/HUMMINGBIRD/hummingbird/src/Views/Stories/Stories.css";
-import Story1 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Story1.png";
-import Story2 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Story2.png";
-import Story3 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Story3.png";
-import Story4 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Story4.png";
-import Story5 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/Story5.png";
+import "../../Views/Stories/Stories.css";
+import Story1 from "../../assets/Story1.png";
+import Story2 from "../../assets/Story2.png";
+import Story3 from "../../assets/Story3.png";
+import Story4 from "../../assets/Story4.png";
+import Story5 from "../../assets/Story5.png";
 
 
 function Stories() {

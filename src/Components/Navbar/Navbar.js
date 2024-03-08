@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
-import "/home/name/HUMMINGBIRD/hummingbird/src/Components/Navbar/navbar.css" ;
-import TMElogo from "/home/name/HUMMINGBIRD/hummingbird/src/assets/TMElogo.png";
+import "../../Components/Navbar/navbar.css" ;
+import TMElogo from "../../assets/TMElogo.png";
 
 function Navbar(props) {
     const [menuOpen, setMenuOpen] = useState(false)

@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import "/home/name/HUMMINGBIRD/hummingbird/src/Components/Join/Join.css";
+import "../../Components/Join/Join.css";
 
 function Join(props) {
     const [buttonOpen, setbuttonOpen] = useState(false)
