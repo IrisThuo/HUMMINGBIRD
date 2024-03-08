@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
-import "/home/name/HUMMINGBIRD/hummingbird/src/Views/About/About.css";
-import aboutBanner1 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutBanner1.png";
-import aboutpic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutpic.png";
-import aboutpic2 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/aboutpic2.png";
-import lorepic from "/home/name/HUMMINGBIRD/hummingbird/src/assets/lorepic.png";
-import lorepic2 from "/home/name/HUMMINGBIRD/hummingbird/src/assets/lorepic2.png";
+import "../../Views/About/About.css";
+import aboutBanner1 from "../../assets/aboutBanner1.png";
+import aboutpic from "../../assets/aboutpic.png";
+import aboutpic2 from "../../assets/aboutpic2.png";
+import lorepic from "../../assets/lorepic.png";
+import lorepic2 from "../../assets/lorepic2.png";
 function About(props) {
     return (
         <div>
