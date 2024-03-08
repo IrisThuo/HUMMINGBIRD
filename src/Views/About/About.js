@@ -68,7 +68,7 @@ function About(props) {
                     <div>
                     <h1>THE MILLENNIAL ENVIRONMENTALISTS</h1>
                     <p>
-                    The Millennial Environmentalists is a group of youth aimed in conserving and advocating for the environment.
+                    The Millennial Environmentalists is a group of youth aimed in conserving and advocating for and passionate about the environment.
 
                     We are a group of young pro-active Africans whose lives and careers are tied to the sustainable use of environmental resources.
 
