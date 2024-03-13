@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
+import Members from '../../Components/Members/Members';
 import "../../Views/About/About.css";
 import aboutBanner1 from "../../assets/aboutBanner1.png";
 import aboutpic from "../../assets/aboutpic.png";
@@ -263,7 +264,7 @@ function About(props) {
 
                 </div>
 
-
+                    <Members/>
 
                      <div className='clear'></div>
             <Footer/>
