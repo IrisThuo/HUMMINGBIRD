@@ -1,130 +1,36 @@
-import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import "../../Views/Stories/Stories.css";
-import Story1 from "../../assets/Story1.png";
-import Story2 from "../../assets/Story2.png";
-import Story3 from "../../assets/Story3.png";
-import Story4 from "../../assets/Story4.png";
-import Story5 from "../../assets/Story5.png";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
+const Stories = () => {
+  const [stories, setStories] = useState([]);
 
-function Stories() {
-    return (
-        <div>
-            <Navbar/>
-            <div className='Heading'>
-            <h2>Read Some Of Our favourite Stories</h2>
-            </div>
-            <div className='body'>
-            <div className='card_container'>
-            <div className='img_container'>
-                <img src={Story1} alt=''/>
-            </div>
-            <div className='card_content'>
-                <div className='card_title'>
-                     <h3>Card Title</h3>
-                </div>
-                <div className='card_body'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                </div>
-                <div className='btn'>
-                    <button>
-                        <a href='/story'>
-                             Read more
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        const response = await axios.get('https://api.example.com/posts'); // Replace with API endpoint
+        setPosts(response.data);
+      } catch (error) {
+        console.error('Error fetching posts:', error);
+      }
+    };
 
-        <div className='card_container'>
-        <div className='img_container'>
-            <img src={Story2} alt=''/>
-        </div>
-        <div className='card_content'>
-            <div className='card_title'>
-                 <h3>Card Title</h3>
-            </div>
-            <div className='card_body'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            </div>
-            <div className='btn'>
-                <button>
-                    <a href='/story'>
-                         Read more
-                    </a>
-                </button>
-            </div>
-        </div>
-    </div>
+    fetchPosts();
+  }, []);
 
-    <div className='card_container'>
-    <div className='img_container'>
-        <img src={Story3} alt=''/>
-    </div>
-    <div className='card_content'>
-        <div className='card_title'>
-             <h3>Card Title</h3>
+  return (
+    <div>
+      <h1>HUMMINGBIRD AWARDS</h1>
+      {stories.map(story => (
+        <div key={story.id}>
+          <h2>{story.title}</h2>
+          <p>{story.body}</p>
+          <button onClick={() => viewStory(story.id)}>Read More</button>
+          <button onClick={() => vote(story.id)}>Vote</button>
         </div>
-        <div className='card_body'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        </div>
-        <div className='btn'>
-            <button>
-                <a href='/story'>
-                     Read more
-                </a>
-            </button>
-        </div>
+      ))}
     </div>
-</div>
-
-<div className='card_container'>
-<div className='img_container'>
-    <img src={Story4} alt=''/>
-</div>
-<div className='card_content'>
-    <div className='card_title'>
-         <h3>Card Title</h3>
-    </div>
-    <div className='card_body'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-    </div>
-    <div className='btn'>
-        <button>
-            <a href='/story'>
-                 Read more
-            </a>
-        </button>
-    </div>
-</div>
-</div>
-
-<div className='card_container'>
-<div className='img_container'>
-    <img src={Story5} alt=''/>
-</div>
-<div className='card_content'>
-    <div className='card_title'>
-         <h3>Card Title</h3>
-    </div>
-    <div className='card_body'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit magna a semper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-    </div>
-    <div className='btn'>
-        <button>
-            <a href='/story'>
-                 Read more
-            </a>
-        </button>
-    </div>
-</div>
-</div>
-        </div>
-            <Footer/>
-            </div>
-    );
-}
+  );
+};
 
 export default Stories;
+

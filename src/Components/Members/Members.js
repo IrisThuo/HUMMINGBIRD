@@ -11,7 +11,7 @@ function Members(props) {
     useEffect(() => {
       const fetchMembers = async () => {
         try {
-          const response = await axios.get('http://localhost:3000/members'); // Replace with your Rails backend API URL
+          const response = await axios.get('http://localhost:3000/members'); // Replace with your API URL
           setMembers(response.data);
         } catch (error) {
           console.error('Error fetching members:', error);
