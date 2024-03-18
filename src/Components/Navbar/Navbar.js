@@ -24,7 +24,7 @@ function Navbar(props) {
             <NavLink to="/">HOME</NavLink>
             </li>
             <li>
-            <NavLink to="/projects">PROJECTS</NavLink>
+            <NavLink to="/hummingbird">HUMMINGBIRD</NavLink>
             </li>
             <li>
             <NavLink to="/about">ABOUT</NavLink>

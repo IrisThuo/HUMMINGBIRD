@@ -119,7 +119,6 @@ area</p>
 
         </div>
             <Footer/>
-            <Footer/>
         </div>
     );
 }
