@@ -34,7 +34,7 @@ function Video({setPlayState}) {
             individuals and
             organizations across
             Kenya.</p>
-            <button className='font-serif bg-[#73B55C] text-white'>Share your story</button>
+           <a href='https://shorturl.at/abhM7'> <button className='font-serif bg-[#73B55C] text-white'>Share your story</button></a>
         </div>
         </div>
         {/* <VideoPlayer/>*/}
