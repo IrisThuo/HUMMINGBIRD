@@ -1,0 +1,49 @@
+.video {
+    margin:100px auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.video .about_left {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.video  .about_right{
+    flex-basis: 56%;
+}
+
+.video .about_left .bird_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video .about_left .play_icon{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.video_player{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_player.hide{
+    display: none;
+}

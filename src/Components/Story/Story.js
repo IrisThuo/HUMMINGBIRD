@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import "../../Components/Story/Story.css"
@@ -11,7 +11,7 @@ function Story(props) {
                 /*style = {{
                     backgroundImage:
                     `url(${story1})`
-                 }}*/
+                 }}
                 >
                 <div className='story_img_container'>
                     <img src={story1} alt=''/>
@@ -32,3 +32,4 @@ function Story(props) {
 }
 
 export default Story;
+*/

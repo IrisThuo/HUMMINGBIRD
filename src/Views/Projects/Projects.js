@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import Story1 from "../../assets/Story1.png";
@@ -32,7 +32,7 @@ function Projects(props) {
                              Read more
                         </a>
                     </button>
-                </div>*/}
+                </div>
             </div>
         </div>
 
@@ -52,13 +52,13 @@ towards restoring the
 environment in the
 area</p>
             </div>
-         {/*  <div className='btn'>
+         <div className='btn'>
                 <button>
                     <a href='/story'>
                          Read more
                     </a>
                 </button>
-            </div>*/}
+            </div>
         </div>
     </div>
 
@@ -79,13 +79,13 @@ area</p>
             climate action and
             mitigation.</p>
         </div>
-       {/* <div className='btn'>
+        <div className='btn'>
             <button>
                 <a href='/story'>
                      Read more
                 </a>
             </button>
-        </div>*/}
+        </div>
     </div>
 </div>
 
@@ -105,13 +105,13 @@ area</p>
         and the rejuvenation of
         protected areas.</p>
     </div>
-   {/* <div className='btn'>
+    <div className='btn'>
         <button>
             <a href='/story'>
                  Read more
             </a>
         </button>
-    </div>*/}
+    </div>
 </div>
 </div>
 
@@ -124,3 +124,4 @@ area</p>
 }
 
 export default Projects;
+*/

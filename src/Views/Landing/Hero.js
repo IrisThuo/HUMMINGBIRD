@@ -1,58 +1,37 @@
-import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import "../../Views/Landing/Hero.css"
-import Heropic from "../../assets/Heropic.png";
+import React from 'react';
+import styles from './hero.module.css';
 
-import Navbar from "../../Components/Navbar/Navbar";
+
+import Members from '../../Components/Members/Members';
+import Origins from '../../Components/origins/Origins';
+import { NavLink } from 'react-router-dom';
+import NavHero from '../../Components/NavHero';
+import Contact from '../../Components/contact/Contact';
+
+
 
 function Hero(props) {
-  return (
-    <div>
+    return (
+    <>
+        <NavHero/>
+        <div className={styles.hero}>
+        <div className='bg-black/50 absolute top-0 left-0 w-full h-screen'/>
+        <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
+            <div className='md:left-[10%] max-w-[1100px] m-auto absolute p-4'>
+                <p className='max-w-[600px] drop-shadow-2xl py-2 text-xl'>The Millennial Environmentalists</p>
+                <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl '>HOW WE GOT STARTED</h1>
+                <p>A story of Friendship,Kenyatta Universiy and Conservation Biology.The Millennial Environentalists is a group of youth aimed in conserving and advocating for the environment.
 
-    <Navbar/>
-   <div className="story-btn">
-
-        <a href="/projects">
-        <span>SEE PROJECTS</span>
-        <span>SEE PROJECTS</span>
-        </a>
-
+                We are a group of young pro-active Africans whose lives and careers are tied to the sustainable use of environmental resources.</p>
+                <NavLink to="/about"><button className='bg-[#0288D1] text-black'>See More</button></NavLink>
+            </div>
     </div>
-
-
-    <div className="Hero_section">
-       <div className="Hero_section_box">
-          <div className="Hero_section_box_right">
-
-          <div class = "vertical">
-           <h1><a href="/about">HOW WE GOT STARTED</a></h1>
-           </div>
-           <br></br>
-            <div>
-            <p>
-            A story of Friendship,Kenyatta Universiy and Conservation Biology.The Millennial Environentalists is a group of youth aimed in conserving and advocating for the environment.
-
-            We are a group of young pro-active Africans whose lives and careers are tied to the sustainable use of environmental resources.
-
-            </p>
-            <p>Engage us for partnerships in sustainable climate action
-            projects.</p>
-            </div>
-            <div className="Join-btn">
-              <a href="/join"><button>Join us</button></a>
-            </div>
-
-          </div>
-          <div className="Hero_section_box_left">
-          <div className="planter1">
-          <img src={Heropic} alt=""/>
         </div>
-          </div>
-       </div>
-    </div>
-    <Footer/>
-    </div>
-  );
+        <Members/>
+        <Origins/>
+        <Contact/>
+    </>
+    );
 }
 
 export default Hero;
