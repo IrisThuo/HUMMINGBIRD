@@ -9,6 +9,8 @@ import KFS from "../../assets/KFS.png";
 import Miti from "../../assets/MitiAlliance.png";
 import PMI from "../../assets/PMI.png";
 import Sports from "../../assets/Sportsview.png";
+import Seed from "../../assets/SEED.png"
+import Goaf from "../../assets/GOAF.png"
 
 function Partners(props) {
   const slides = [
@@ -41,6 +43,16 @@ function Partners(props) {
       image: Sports,
       title: "SportsView Hotel",
       link: "https://sportsviewhotel.com/s/",
+    },
+    {
+      image: Seed,
+      title: "SeedBalls",
+      link: "https://www.seedballskenya.com/",
+    },
+    {
+      image: Goaf,
+      title: "Greens of Africa Foundation",
+      link: "http://www.greenafricafoundation.org/",
     },
   ];
 
