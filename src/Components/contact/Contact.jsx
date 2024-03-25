@@ -48,7 +48,7 @@ function Contact(props) {
         <ul>
             <li className='font-serif  flex items-center my-[20px]'>millenialenv.org@gmail.com</li>
             <MdOutlineMail className='flex items-center w-[35px]  text-[#000f38]' />
-            <li className='font-serif flex items-center my-[20px]'>+254 708 266 926</li>
+            <li className='font-serif flex items-center my-[20px]'>+254 704 924 706</li>
             <FiPhoneCall className='flex items-center w-[35px]  text-[#000f38]'/>
             <li className='font-serif flex items-center my-[20px]'>Nairobi,Kenya</li>
             <CiLocationOn className='flex items-center w-[35px]  text-[#000f38]'/>
