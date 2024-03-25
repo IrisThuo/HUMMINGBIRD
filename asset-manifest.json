@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7db8c21b.css",
-    "main.js": "/static/js/main.7af17531.js",
+    "main.css": "/static/css/main.c7e57e9e.css",
+    "main.js": "/static/js/main.919e5512.js",
     "static/media/Story2.png": "/static/media/Story2.59adc7a1682f0b860c36.png",
     "static/media/aboutpic.png": "/static/media/aboutpic.43ec3ef3d22b030f4e26.png",
     "static/media/Story4.png": "/static/media/Story4.a64de83813d4ea7a76e4.png",
@@ -23,14 +23,15 @@
     "static/media/TMElogo.png": "/static/media/TMElogo.fb67020a875391af5992.png",
     "static/media/SEED.png": "/static/media/SEED.a6b2680f94e90a6a8edc.png",
     "static/media/play-button.png": "/static/media/play-button.ece6d6077991355cb396.png",
+    "static/media/MPESA.png": "/static/media/MPESA.151880db3730b18dc5e8.png",
     "static/media/KASNEB.png": "/static/media/KASNEB.e1e0ccb2900bd27e51b3.png",
     "static/media/PMI.png": "/static/media/PMI.242e3aaf6cc44f8b749f.png",
     "index.html": "/index.html",
-    "main.7db8c21b.css.map": "/static/css/main.7db8c21b.css.map",
-    "main.7af17531.js.map": "/static/js/main.7af17531.js.map"
+    "main.c7e57e9e.css.map": "/static/css/main.c7e57e9e.css.map",
+    "main.919e5512.js.map": "/static/js/main.919e5512.js.map"
   },
   "entrypoints": [
-    "static/css/main.7db8c21b.css",
-    "static/js/main.7af17531.js"
+    "static/css/main.c7e57e9e.css",
+    "static/js/main.919e5512.js"
   ]
 }
