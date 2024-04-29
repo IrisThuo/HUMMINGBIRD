@@ -44,7 +44,7 @@ function Contact(props) {
 
         <h3 className='font-serif text-[#000f38] font-medium text-[25px]'>Send us a message</h3>
 
-        <p className='font-serif max-w-[450px] leading-[1.3] '> Feel free to reach out through contact form or find our contact information below. Your questions and suggestions are important to us. Lets be the change we wish to see in the world</p>
+        <p className='font-serif max-w-[450px] leading-[1.3] '> Feel free to reach out through the contact form alongside or find our contact information below. Your questions and suggestions are important to us. Lets be the change we wish to see in the world.</p>
         <ul>
             <li className='font-serif  flex items-center my-[20px]'>millenialenv.org@gmail.com</li>
             <MdOutlineMail className='flex items-center w-[35px]  text-[#000f38]' />

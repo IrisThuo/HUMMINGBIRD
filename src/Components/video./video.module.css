@@ -32,6 +32,7 @@
 }
 
 .video_player{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -46,4 +47,9 @@
 
 .video_player.hide{
     display: none;
+}
+
+
+.video_player_show {
+    display: flex;
 }

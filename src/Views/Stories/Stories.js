@@ -1,13 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Navbar from '../../Components/Navbar/Navbar'
 import Video from '../../Components/video./Video';
 
 
 function Stories(props) {
+  const [playState,setPlayState]=useState(false)
+
   return (
     <div>
       <Navbar/>
-      <Video/>
+      <Video setPlayState={setPlayState} playState={playState}/>
     </div>
   );
 }
