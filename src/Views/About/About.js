@@ -6,6 +6,7 @@ import Info from '../../Components/Info';
 import Partners from '../../Components/Partners/Partners';
 import Work from '../../Components/Work';
 
+
 function About(props) {
 
     return (
