@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.924e89da.css",
-    "main.js": "/static/js/main.2957bf55.js",
+    "main.css": "/static/css/main.b1dfb717.css",
+    "main.js": "/static/js/main.a0a56b81.js",
     "static/media/Story2.png": "/static/media/Story2.59adc7a1682f0b860c36.png",
     "static/media/aboutpic.png": "/static/media/aboutpic.43ec3ef3d22b030f4e26.png",
     "static/media/Story4.png": "/static/media/Story4.a64de83813d4ea7a76e4.png",
@@ -13,28 +13,27 @@
     "static/media/aboutpic2.png": "/static/media/aboutpic2.dfb4f06bb728ccec23b4.png",
     "static/media/Story5.png": "/static/media/Story5.7451edf23b6007b0169a.png",
     "static/media/joinus.png": "/static/media/joinus.e18d36e3f804d5c12bdc.png",
-    "static/media/hummingbird.mp4": "/static/media/hummingbird.7151d8370f9c4ad7f0cc.mp4",
     "static/media/TMEfye.png": "/static/media/TMEfye.5d17ecc05432ba1541d4.png",
     "static/media/Hummingbird.png": "/static/media/Hummingbird.bd82940062a5cb38631d.png",
     "static/media/Eric.png": "/static/media/Eric.d67d4986fd9c28a80150.png",
     "static/media/Muddy.png": "/static/media/Muddy.4c747ffe1e930adde5d8.png",
     "static/media/kids.png": "/static/media/kids.8a1544730ff95c2f7948.png",
     "static/media/Terry.png": "/static/media/Terry.59ad801e0b5e10c7d16b.png",
+    "static/media/james.png": "/static/media/james.8539f3b9245d86068f9f.png",
     "static/media/GOAF.png": "/static/media/GOAF.591ef47a365e37bde7e7.png",
     "static/media/Nema.png": "/static/media/Nema.dc65fd986ff582ef7699.png",
     "static/media/KFS.png": "/static/media/KFS.7d07b4f7fa1652d0c28d.png",
     "static/media/TMElogo.png": "/static/media/TMElogo.fb67020a875391af5992.png",
     "static/media/SEED.png": "/static/media/SEED.a6b2680f94e90a6a8edc.png",
-    "static/media/play-button.png": "/static/media/play-button.ece6d6077991355cb396.png",
     "static/media/MPESA.png": "/static/media/MPESA.151880db3730b18dc5e8.png",
     "static/media/KASNEB.png": "/static/media/KASNEB.e1e0ccb2900bd27e51b3.png",
     "static/media/PMI.png": "/static/media/PMI.242e3aaf6cc44f8b749f.png",
     "index.html": "/index.html",
-    "main.924e89da.css.map": "/static/css/main.924e89da.css.map",
-    "main.2957bf55.js.map": "/static/js/main.2957bf55.js.map"
+    "main.b1dfb717.css.map": "/static/css/main.b1dfb717.css.map",
+    "main.a0a56b81.js.map": "/static/js/main.a0a56b81.js.map"
   },
   "entrypoints": [
-    "static/css/main.924e89da.css",
-    "static/js/main.2957bf55.js"
+    "static/css/main.b1dfb717.css",
+    "static/js/main.a0a56b81.js"
   ]
 }
