@@ -30,6 +30,7 @@ function Hero(props) {
         <Members/>
         <Origins/>
         <Contact/>
+
     </>
     );
 }

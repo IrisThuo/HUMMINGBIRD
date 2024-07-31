@@ -17,6 +17,10 @@
 
 }
 
+.clear{
+ margin-top: 0.8rem;
+}
+
 .sb_footer{
     display:flex;
     flex-direction: column;
