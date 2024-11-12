@@ -59,7 +59,7 @@ function Partners(props) {
 
   return (
     <div>
-      <h2 className="text-5xl font-bold font-serif text-[#73B55C] text-center p-4">
+      <h2 className="text-2xl font-bold font-serif text-[#73B55C] text-center pt-10 py-4">
         Sponsors And Partners
       </h2>
       <div className="relative group">
@@ -79,7 +79,7 @@ function Partners(props) {
           {slides.map((slide, index) => {
             return (
               <SwiperSlide key={index}>
-                <div className="bg-slate-100 flex flex-col items-center py-4 px-2 space-y-4 ">
+                <div className="bg-slate-100 flex flex-col items-center py-2 px-2 space-y-4 ">
                   <img
                     className="w-[100] h-[100] rounded-full"
                     src={slide.image}

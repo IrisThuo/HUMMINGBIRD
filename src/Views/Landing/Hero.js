@@ -7,6 +7,7 @@ import Origins from '../../Components/origins/Origins';
 import { NavLink } from 'react-router-dom';
 import NavHero from '../../Components/NavHero';
 import Contact from '../../Components/contact/Contact';
+import Footer from '../../Components/Footer/Footer';
 
 
 
@@ -30,7 +31,8 @@ function Hero(props) {
         <Members/>
         <Origins/>
         <Contact/>
-
+        <Footer/>
+        
     </>
     );
 }
